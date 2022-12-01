@@ -26,6 +26,7 @@ func (l *Logger) GetLogger() *log.Logger {
 	level := os.Getenv("LOG_LEVEL")
 	logLevel, _ := l.parseLoggerLevel(level)
 	logger.Level = logLevel
+	logger.SetOutput(&lib.LogWriter{})
 	logger.Formatter = &lib.Formatter{
 		LogFormatter: log.TextFormatter{
 			FullTimestamp:          true,
