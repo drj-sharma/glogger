@@ -10,5 +10,7 @@ var (
 )
 
 func main() {
-	logger.Info("This is the logger to test")
+	logger.Info("This is info logger")
+	logger.Debug("This is debug logger")
+	logger.Fatal("This is fatal logger")
 }
