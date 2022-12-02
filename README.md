@@ -1,4 +1,4 @@
-Glogger: A Logger library for golang with request id, timestamp and many more features
+Glogger: A logging library for Golang, simple and easy to use compatible with the standard library logger.
 
 
 ## Installation & testing
