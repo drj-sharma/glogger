@@ -5,10 +5,19 @@ Glogger: A logging library for Golang, simple and easy to use compatible with th
 
 Use below as package to install glogger in your Go project
 
+RUN
+```
+go get github.com/drj-sharma/glogger@latest
+```
+
+and use below package as logger, see example for more details
 ```
 github.com/drj-sharma/glogger
 ```
+&nbsp;
+
 example
+
 ```bash
 import (
 	log "github.com/drj-sharma/glogger"
