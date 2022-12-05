@@ -1,19 +1,50 @@
-logger library for golang with request id, timestamp and many more features
+Glogger: A logging library for Golang, simple and easy to use compatible with the standard library logger.
 
-To test this library:
+
+## Installation & testing
+
+Use below as package to install glogger in your Go project
+
+```
+github.com/wayne9499/glogger
+```
+example
+```bash
+import (
+	log "github.com/wayne9499/glogger"
+)
+var (
+	logging = log.Logger{}
+	logger  = logging.GetLogger()
+)
+
+func main() {
+	logger.Info("This is info logger")
+	logger.Debug("This is debug logger")
+	logger.Fatal("This is fatal logger")
+    // example log
+    "[time] - LOGGER_LEVEL - LOG_MSG"
+}
+```
+
+---
+&nbsp;
 
 Easiest way to test this library by using Docker
 
-1. docker build .
+```bash
+docker build -t app .
 
-2. docker run {sha-image}
+docker run app
+```
 
 OR
 
 Install make tool (https://askubuntu.com/questions/161104/how-do-i-install-make)
 
 then,
+``` bash
+make docker-build
 
-1. make docker-build
-
-2. make docker-run
+make docker-run
+    
