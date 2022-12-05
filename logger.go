@@ -3,8 +3,8 @@ package logger
 import (
 	"os"
 
+	"github.com/drj-sharma/glogger/lib"
 	log "github.com/sirupsen/logrus"
-	"github.com/wayne9499/glogger/lib"
 )
 
 type Logger struct {

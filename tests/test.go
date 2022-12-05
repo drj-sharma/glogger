@@ -1,7 +1,7 @@
 package main
 
 import (
-	log "github.com/wayne9499/glogger"
+	log "github.com/drj-sharma/glogger"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/wayne9499/glogger
+module github.com/drj-sharma/glogger
 
 go 1.19
 
