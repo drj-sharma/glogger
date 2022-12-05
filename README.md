@@ -6,12 +6,12 @@ Glogger: A logging library for Golang, simple and easy to use compatible with th
 Use below as package to install glogger in your Go project
 
 ```
-github.com/wayne9499/glogger
+github.com/drj-sharma/glogger
 ```
 example
 ```bash
 import (
-	log "github.com/wayne9499/glogger"
+	log "github.com/drj-sharma/glogger"
 )
 var (
 	logging = log.Logger{}
