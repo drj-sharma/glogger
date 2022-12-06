@@ -49,9 +49,8 @@ docker run app
 
 OR
 
-Install make tool (https://askubuntu.com/questions/161104/how-do-i-install-make)
+Use Makefile (https://askubuntu.com/questions/161104/how-do-i-install-make)
 
-then,
 ``` bash
 make docker-build
 
