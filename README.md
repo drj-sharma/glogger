@@ -28,9 +28,9 @@ var (
 )
 
 func main() {
-	logger.Info("This is info logger")
-	logger.Debug("This is debug logger")
-	logger.Fatal("This is fatal logger")
+    logger.Info("This is info logger")
+    logger.Debug("This is debug logger")
+    logger.Fatal("This is fatal logger")
     // example log
     "[time] - LOGGER_LEVEL - LOG_MSG"
 }
